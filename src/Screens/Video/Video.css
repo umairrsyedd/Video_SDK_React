@@ -1,0 +1,27 @@
+.Container {
+    display: flex;
+    height: 90vh;
+    padding: 0.8rem;
+}
+.Video__Container {
+    width: 75%;
+    border : 1px solid black;
+    
+}
+.Topics__Container {
+    width: 25%;
+    border : 1px solid black
+}
+@media screen and (max-width: 704px) {
+    .Container {
+        flex-direction: column;
+    }
+    .Video__Container {
+        width: 100%;
+        height: 100%;
+    }
+    .Topics__Container {
+        width: 100%;
+        
+    }
+}
